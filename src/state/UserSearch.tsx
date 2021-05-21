@@ -1,18 +1,9 @@
 import React, { useState } from 'react';
 
 const users = [
-  {
-    name: 'Iulian',
-    age: 36,
-  },
-  {
-    name: 'Aneta',
-    age: 28,
-  },
-  {
-    name: 'Oliver',
-    age: 1,
-  },
+  { name: 'Iulian', age: 36 },
+  { name: 'Aneta', age: 28 },
+  { name: 'Oliver', age: 1 },
 ];
 
 const UserSearch: React.FC = () => {
