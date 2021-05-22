@@ -40,8 +40,8 @@ class UserSearch extends Component<UserSearchProps> {
         <button type="button" onClick={this.onButtonClick}>
           Search
         </button>
-        <div>{user?.name}</div>
-        <div>{user?.age}</div>
+        {/*<div>{user && user.name}</div>*/}
+        {/*<div>{user && user.age}</div>*/}
       </div>
     );
   }
